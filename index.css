@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.he{
+    width: 100%;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: red;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.he h1{
+    margin-left: 5px;
+}
+.nbgm nav ol{
+    text-align: end;
+    text-transform: uppercase;
+    margin-left:10px ;
+    margin-right:70px ;
+    padding: 5px;
+    margin-top: -35px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration-line: none;
+    border:2px white solid;
+    width: 95%;
+    
+
+    
+}
+.log{
+    border: 2px white solid;
+    width: 4px 3px;
+    color: white;
+    text-decoration-line: none;
+    font-weight: 400;
+    align-items: end;
+    margin-left: 10px;
+    padding: 3px;
+    
+}
+.nbgm nav ol .log:hover{
+    transition: all;
+    text-decoration-line: underline;
+    text-decoration: #f5413e solid;
+    transform: scale(1.2);
+}
+
+/* nav ol .log:hover{
+    color: dodgerblue;
+}     */
+
+
+.ho{
+    text-decoration-line: none;
+    margin: 3px;
+    padding: 2px;
+    font-weight: 400;
+    color: white;
+
+}
+.content{
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(170, 169, 169);
+    width: 100%;
+    padding-bottom: 110px;
+    padding-top: 110px;
+    font-size: x-large;
+    line-height:2;
+}
+.bod{margin-top:4rem;
+    line-height: 1.5;
+    padding: 4px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 65px;
+
+    
+}
+.bov{margin-top: 50px;
+    margin-left: 9px;
+    align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+background-color: #f5413e;
+width: auto;
+padding: 20px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+cursor: pointer;
+/* -webkit-transition-property: box-shadow,transform; */
+
+
+
+}
+.bov:hover, .bov:focus,.bov:active{
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform:scale(1.1);
+/* color: dodgerblue; */
+
+}
+
+/* .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ */
+/* } */
+
+.container .quote p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 100px;
+    width: 80%;
+    
+
+}
+ .main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white; /* Red background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 4px;
+   
+    
+ }
+
+.container {
+    display: flex;
+}
+
+.quote {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.appointment-box {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    float: right;
+}
+
+h2 {
+    color: #e74c3c; /* Red text color */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+small {
+    display: block;
+    color: #777;
+    margin-top: 4px;
+}
+
+button {
+    background-color: #e74c3c; /* Red button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+.content .join{
+    margin-top: -10px;
+    margin-left: 620px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+background-color: #f5413e;
+width: auto;
+padding: 20px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+cursor: pointer;
+/* -webkit-transition-property: box-shadow,transform; */
+}
+.content .join:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform:scale(1.1);
+}
+
+.main2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white; /* Red background color */
+    margin-top: 0px;
+    margin: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 350px;
+    width: 330px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.instructions {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: #e74c3c; /* Red text color */
+    text-align: center;
+}
+
+.instruction-step {
+    margin-bottom: 20px;
+}
+
+.instruction-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.main3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white; /* Red background color */
+    margin: 0;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .box{
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+    color: #333;
+    text-align: center;
+} */
+
+.instructions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    color: black; /* Red text color */
+    text-align: center;
+    
+    
+}
+
+.instruction-step {
+    margin-bottom: 20px;
+}
+
+.instruction-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Additional styles for Our Team section */
+#our-team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 350px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Ensure the box shadow doesn't get cut off */
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+}
+p{
+    text-align: center;
+}
+
+
+.heading {
+    box-sizing: content-box;
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 50px;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading h2{
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.heading p{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.team-member .sci a{
+    text-decoration: none;
+    color: #e74c3c;
+    margin: 10px;
+    text-align: center;
+    /* padding: 10px; */
+    align-items: center;
+    font-size: 15px;
+    margin-left: 20px;   
+}
+.sci{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container4{
+  padding: 16px;
+  
+}
+.container4 p {
+    text-align: start;
+    margin-top: 10px;
+}
+.container4 hr{
+    margin-top: 10px;
+    border-width: thin;
+    border: 5px thin black;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+ 
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.gen{
+    width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+font-size: 14px;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+}
+
+/* .gender2{
+    margin-left: 10px;
+} */
+
+.gen2{
+    display: flex
+}
+
